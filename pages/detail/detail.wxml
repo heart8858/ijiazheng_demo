@@ -1,0 +1,116 @@
+<view class="detailContainer">
+  <view class="banner">
+    <image src="/static/images/test1.jpg"></image>
+  </view>
+
+  <view class="desC">
+    <view class="content">
+      <view class="header">
+        <text>服务介绍</text>
+      </view>
+      <view class="detail">冰箱内部是家庭卫生第二受污染重地，冰箱长时间不清晰和消毒，容易产生异味、串味和大量细菌，极易引起肠道疾病。爱家政使用专业工具，深层、全方位除霜和清洁，呵护您和家人的身体健康。       </view>
+    </view>
+    <view class="priceC">
+      <view class="type">
+        <view class="gray">类型</view>
+        <view>冰箱清洗</view>
+      </view>
+      <view class="price">
+        <view class="gray">价格</view>
+        <view>158元/台</view>
+      </view>
+    </view>
+
+    <!-- 取消订单部分 -->
+    <view class="cancelOrder">
+      <view class="cancelHeader">
+        <view>取消订单说明</view>
+        <view>详细规则>></view>
+      </view>
+      <view class="cancelDesc">为保障您与家政服务人员的时间效益，如您支付下单超过15分钟且在订单服务开始前12小时内取消订单，将扣除一定比例的预付款作为违约金，恳请您的谅解。</view>
+    </view>
+
+    <!-- 服务标准部分 -->
+    <view class="serviceContainer">
+      <view class="serviceHeader">
+        <view>冰箱清理</view>
+        <view>服务标准</view>
+        <view>备注</view>
+      </view>
+      <view class="serviceItem">
+        <view>冰箱检测</view>
+        <view>记录冰箱问题所在预测清洗后的成效</view>
+        <view>如有问题要请客户确认签名</view>
+      </view>
+      <view class="serviceItem">
+        <view>冰箱检测</view>
+        <view>记录冰箱问题所在预测清洗后的成效</view>
+        <view>如有问题要请客户确认签名</view>
+      </view>
+      <view class="serviceItem">
+        <view>冰箱检测</view>
+        <view>记录冰箱问题所在预测清洗后的成效</view>
+        <view>如有问题要请客户确认签名</view>
+      </view>
+      <view class="serviceItem">
+        <view>冰箱检测</view>
+        <view>记录冰箱问题所在预测清洗后的成效</view>
+        <view>如有问题要请客户确认签名</view>
+      </view>
+      <view class="serviceItem">
+        <view>冰箱检测</view>
+        <view></view>
+        <view>如有问题要请客户确认签名</view>
+      </view>
+    </view>
+
+    <!-- 温馨提示部分 -->
+    <van-notice-bar
+      color="#1989fa"
+      background="#ecf9ff"
+      left-icon="info-o"
+      text="1.单门冰箱清洁大约耗时1.5小时，双开门冰箱清洁大约耗时2小时及以上，具体工作时间因冰箱自身污染程度和事物的量而定 2.所需工具：高温蒸汽机、保温袋、除冰铲、中性清洁剂、牙刷、牙膏、一次性筷子、标签"
+    />
+
+    <!-- 服务承诺部分 -->
+    <view class="sPromise">
+      <view class="promiseHeader">服务承诺</view>
+      <view class="promiseItem">
+        <van-icon name="smile" color="#5fde74" size="60rpx"/>
+        <view class="sDesc">
+          <view>保障</view>
+          <view class="sContent">专属督导一对一跟踪服务质量</view>
+        </view>
+      </view>
+      <view class="promiseItem">
+        <van-icon name="clock" color="#02d0fd" size="60rpx"/>
+        <view class="sDesc">
+          <view>专业</view>
+          <view class="sContent">专业除冰铲，根除“常年积冰”；高温蒸汽机，深度杀菌除臭</view>
+        </view>
+      </view>
+      <view class="promiseItem">
+        <van-icon name="like" color="#fe7817" size="60rpx"/>
+        <view class="sDesc">
+          <view>贴心</view>
+          <view class="sContent">保温袋全程保鲜，有效防止食物变质；清洁后事物按标签存放</view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 注意事项部分 -->
+    <view class="notice">
+      <view class="noticeHeader">注意事项</view>
+      <view class="noticeContent">
+        <view>1.预约时间范围：08：00-19：00，至少提前24小时预约</view>
+        <view>2.电话/微信客服的工作时间：09：00-18：00</view>
+        <view>3.客服电话：131xxxxxxxx</view>
+        <view>4.在线支付方式：微信支付、余额支付(需先充值，不含税)</view>
+        <view>5.请保证家里通水通电</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 预定部分 -->
+  <van-button type="primary" size="large" color="#1989fa">立即预定</van-button>
+</view>

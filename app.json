@@ -1,0 +1,51 @@
+{
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-icon": "@vant/weapp/icon/index"
+  },
+  "pages": [
+    "pages/home/home",
+    "pages/detail/detail",
+    "pages/category/category",
+    "pages/order/order",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#29b9f0",
+    "navigationBarTitleText": "爱家政",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#4ad4e6",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/static/tabs/home.png",
+        "selectedIconPath": "/static/tabs/home-Selected.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "/static/tabs/category.png",
+        "selectedIconPath": "/static/tabs/category-Selected.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "/static/tabs/order.png",
+        "selectedIconPath": "/static/tabs/order-Selected.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "个人中心",
+        "iconPath": "/static/tabs/profile.png",
+        "selectedIconPath": "/static/tabs/profile-Selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

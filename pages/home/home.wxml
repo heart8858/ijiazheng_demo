@@ -1,0 +1,64 @@
+<view class="homeContainer">
+  <!-- 轮播图 -->
+  <swiper class="banners" indicator-dots indicator-color="ivory"  indicator-active-color="#238fcf" autoplay>
+    <swiper-item>
+      <image src="/static/images/test1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/images/test2.jpg"></image>
+    </swiper-item>
+  </swiper>
+
+  <!-- 导航栏 -->
+  <view class="navContainer">
+    <view class="navItem">
+      <van-icon class-prefix="my-icon" name="greasepump" size="100rpx" color="#fff"/>
+      <text>油烟机清洗</text>
+    </view>
+    <view class="navItem">
+      <van-icon class-prefix="my-icon" name="kongtiao1" size="100rpx" color="#fff"/>
+      <text>空调清洗</text>
+    </view>
+    <view class="navItem" bindtap="toDetail">
+      <van-icon class-prefix="my-icon" name="bingxiang1" size="100rpx" color="#fff"/>
+      <text>冰箱清洗</text>
+    </view>
+    <view class="navItem">
+      <van-icon class-prefix="my-icon" name="boliban" size="100rpx" color="#fff"/>
+      <text>日常清洁</text>
+    </view>
+    <view class="navItem">
+      <van-icon class-prefix="my-icon" name="baomuyuesao" size="100rpx" color="#fff"/>
+      <text>保姆月嫂</text>
+    </view>
+  </view>
+
+  <!-- 推荐服务区域 -->
+  <view class="recommendContainer">
+    <view class="header">
+      <view class="recommendTitle">热门服务</view>
+    </view>
+
+    <scroll-view class="recommendScroll" enable-flex scroll-x>
+      <view class="scrollItem">
+        <image src="/static/images/test1.jpg"></image>
+        <text>日常服务</text>
+      </view>
+      <view class="scrollItem">
+        <image src="/static/images/test2.jpg"></image>
+        <text>日常服务</text>
+      </view>
+      <view class="scrollItem">
+        <image src="/static/images/test1.jpg"></image>
+        <text>日常服务</text>
+      </view>
+      <view class="scrollItem">
+        <image src="/static/images/test1.jpg"></image>
+        <text>日常服务</text>
+      </view>
+    </scroll-view>
+  </view>
+
+  
+</view>
+
