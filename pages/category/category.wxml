@@ -1,2 +1,14 @@
-<!--pages/category/category.wxml-->
-<text>pages/category/category.wxml</text>
+<view class="categoryContainer">
+  <!-- 左侧边栏 -->
+  <view class="sideNav">
+    <view class="leftItem" wx:for="{{type}}" bindtap="switchTab" wx:key="index"
+    class="navContent {{navId === index ? 'active':''}}"
+    id="{{index}}"
+    >{{item}}</view>
+  </view>
+
+  <!-- 右侧分类页面 -->
+  <view class="right">
+    <view class="type">111</view>
+  </view>
+</view>

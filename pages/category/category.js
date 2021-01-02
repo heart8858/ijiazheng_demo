@@ -5,6 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
+    navId:'',
+    type: ["为您推荐", "清洁", "消毒", "保姆", "为您推荐", "清洁", "消毒", "保姆", "为您推荐", "清洁", "消毒", "保姆"]
+  },
+  switchTab(event) {
+    let navId = event.currentTarget.id;
+    this.setData({
+      navId: navId*1
+    })
   },
 
   /**

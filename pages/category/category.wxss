@@ -1,1 +1,24 @@
 /* pages/category/category.wxss */
+.categoryContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+/* 左边 */
+.sideNav {
+    width: 25%;
+    background: #ecf9ff;
+}
+.sideNav .leftItem {
+    padding: 10rpx;
+    text-align: center;
+}
+
+/* 右边 */
+.right {
+    width: 75%;
+    padding: 0 10rpx;
+    background: pink;
+}
+
