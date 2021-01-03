@@ -60,4 +60,41 @@
     font-size: 30rpx;
 }
 
+/* 优选服务部分 */
+.serviceContainer {
+    padding: 0 15rpx;
+}
+.serviceTitle {
+    padding: 10rpx 0;
+    text-align: center;
+    font-size: 30rpx;
+    border-bottom: 1rpx solid #ccc;
+}
+.serviceItem {
+    display: flex;
+    height: 120rpx;
+    padding: 20rpx 0;
+    border-bottom: 1rpx solid #ccc;
+}
+.serviceItem:last-child {
+    border: 0a;
+}
+.serviceItem image {
+    border-radius: 10rpx;
+    width: 30%;
+    height: 100%;
+}
+.serviceItem .desc {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    padding-left: 20rpx;
+}
 
+.serviceItem .desc text:nth-child(1) {
+    color: red;
+    font-size: 30rpx;
+}
+.serviceItem .desc text:nth-child(2) {
+    font-size: 28rpx;
+}

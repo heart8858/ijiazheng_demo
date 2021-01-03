@@ -10,7 +10,7 @@
     width: 25%;
     background: #ecf9ff;
 }
-.sideNav .leftItem {
+.sideNav .navItem {
     padding: 10rpx;
     text-align: center;
 }

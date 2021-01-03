@@ -112,5 +112,5 @@
   </view>
 
   <!-- 预定部分 -->
-  <van-button type="primary" size="large" color="#1989fa">立即预定</van-button>
+  <van-button type="primary" size="large" color="#1989fa" bindtap="getOrder">立即预定</van-button>
 </view>

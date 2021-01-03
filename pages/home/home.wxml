@@ -59,6 +59,49 @@
     </scroll-view>
   </view>
 
-  
+  <!-- 优选服务部分 -->
+  <view class="serviceContainer">
+    <view class="serviceTitle">
+      <van-icon name="fire-o" color="red"/>
+      优选服务
+    </view>
+    <view class="serviceItem">
+      <image src="/static/images/test1.jpg"></image>
+      <view class="desc">
+        <text>找保姆</text>
+        <text>家庭餐饮制作，卫生清洁，照看老人小孩</text>
+      </view>
+    </view>
+    <view class="serviceItem">
+      <image src="/static/images/test1.jpg"></image>
+      <view class="desc">
+        <text>找保姆</text>
+        <text>家庭餐饮制作，卫生清洁，照看老人小孩</text>
+      </view>
+    </view>
+    <view class="serviceItem">
+      <image src="/static/images/test1.jpg"></image>
+      <view class="desc">
+        <text>找保姆</text>
+        <text>家庭餐饮制作，卫生清洁，照看老人小孩</text>
+      </view>
+    </view>
+    <view class="serviceItem">
+      <image src="/static/images/test1.jpg"></image>
+      <view class="desc">
+        <text>找保姆</text>
+        <text>家庭餐饮制作，卫生清洁，照看老人小孩</text>
+      </view>
+    </view>
+    <view class="serviceItem">
+      <image src="/static/images/test1.jpg"></image>
+      <view class="desc">
+        <text>找保姆</text>
+        <text>家庭餐饮制作，卫生清洁，照看老人小孩</text>
+      </view>
+    </view>
+  </view>
+
+
 </view>
 
