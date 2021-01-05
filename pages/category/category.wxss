@@ -15,6 +15,7 @@
     text-align: center;
 }
 
+
 /* 右边 */
 .right {
     width: 75%;

@@ -1,1 +1,63 @@
-/* pages/profile/profile.wxss */
+.profileContainer {
+  position: relative;
+}
+.info {
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  background: #1296db;
+  align-items: center
+}
+
+.info .avatar image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  border: 2rpx solid #fff;
+}
+
+.info .phoneNumber {
+  font-size: 38rpx;
+}
+
+.avatar,
+.phoneNumber {
+  padding-left: 20rpx;
+}
+
+.setting-o {
+  position: absolute;
+  top: 20rpx;
+  right: 30rpx;
+}
+
+.balance {
+  width: 100%;
+  height: 50rpx;
+  background: #1296db;
+  padding-left: 20rpx;
+  font-size: 32rpx;
+  border-bottom: 20rpx solid #eee;
+}
+
+/* 会员卡部分 */
+.vipContainer {
+  background: #eee;
+}
+.vipItem {
+  display: flex;
+  width: 100%;
+  height: 60rpx;
+  background: #fff;
+  margin-top: 10rpx;
+  line-height: 60rpx;
+  font-size: 32rpx;
+  justify-content: space-between;
+  padding: 0 10rpx;
+}
+
+.arrow {
+  padding-right: 20rpx;
+}
+
+

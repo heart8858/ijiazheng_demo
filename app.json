@@ -4,11 +4,11 @@
     "van-icon": "@vant/weapp/icon/index"
   },
   "pages": [
+    "pages/profile/profile",
     "pages/category/category",
     "pages/home/home",
     "pages/detail/detail",
-    "pages/order/order",
-    "pages/profile/profile"
+    "pages/order/order"
   ],
   "window": {
     "backgroundTextStyle": "light",

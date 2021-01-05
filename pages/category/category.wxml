@@ -2,7 +2,7 @@
   <!-- 左侧边栏 -->
   <view class="sideNav">
     <view class="navItem" wx:for="{{type}}" wx:key="index">
-      <view class="navContent {{navId === curTab?'active':''}}" bindtap="switchTab" id="{{index}}">{{item}}</view>
+      <view class="navContent {{navId === 11?'active':''}}" bindtap="switchTab" data-id="{{index}}">{{item}}</view>
     </view>
   </view>
 

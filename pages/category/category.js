@@ -6,12 +6,19 @@ Page({
    */
   data: {
     curTab:0,
+    navId:'',
     type: ["为您推荐", "清洁", "消毒", "保姆", "为您推荐", "清洁", "消毒", "保姆", "为您推荐", "清洁", "消毒", "保姆"]
   },
   switchTab(event) {
-    let navId = event.currentTarget.id;
+    let navId = event.currentTarget.dataset.id;
+    let curTab = 0;
+    for(let i=0;i<this.data.type.length;i++) {
+      console.log(i)
+      curTab = i
+    }
     this.setData({
-      curTab: navId*1,
+      navId: navId*1,
+      curTab
     })
   },
 
