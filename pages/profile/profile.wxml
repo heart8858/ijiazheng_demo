@@ -1,10 +1,11 @@
 <view class="profileContainer">
   <!-- 个人信息部分 -->
-  <view class="info">
+  <view class="info" bindtap="goAuth">
     <view class="avatar">
       <image src="/static/images/test1.jpg"></image>
     </view>
-    <view class="phoneNumber">131xxxxxxxx</view>
+    <view class="btn-login" wx:if="{{true}}">点击登陆</view>
+    <view class="phoneNumber" wx:else>131xxxxxxxx</view>
     <van-icon name="setting-o" size="45rpx" color="#fff" class="setting-o"/>
   </view>
   <view class="balance">账户余额:</view>

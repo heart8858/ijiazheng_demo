@@ -4,9 +4,11 @@
     "van-icon": "@vant/weapp/icon/index"
   },
   "pages": [
+    "pages/home/home",
+    "pages/auth/auth",
     "pages/profile/profile",
     "pages/category/category",
-    "pages/home/home",
+    
     "pages/detail/detail",
     "pages/order/order"
   ],

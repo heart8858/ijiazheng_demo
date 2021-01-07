@@ -1,0 +1,14 @@
+<view class="authContainer">
+  <view class="logo">
+    <image src="/static/images/logo.jpg"></image>
+  </view>
+  <view class="logo-name">爱家政</view>
+  <view class="intro">解决家庭清洁难题</view>
+  <view class="login">请完成微信授权以继续使用</view>
+  <van-button type="primary" block
+    icon="/static/images/weixin-w.png"
+    class="btn-login"
+    size="normal"
+  >微信快捷登陆</van-button>
+  <view class="cancel" bindtap="goBack">取消</view>
+</view>

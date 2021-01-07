@@ -1,4 +1,4 @@
-// pages/profile/profile.js
+// pages/auth/auth.js
 Page({
 
   /**
@@ -7,24 +7,23 @@ Page({
   data: {
 
   },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
 
   },
-  goAuth() {
-    wx.navigateTo({
-      url: '/pages/auth/auth',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
 
   },
-
+  goBack() {
+    wx.navigateBack()
+  },
   /**
    * 生命周期函数--监听页面显示
    */
