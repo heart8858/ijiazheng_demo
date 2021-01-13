@@ -1,13 +1,34 @@
 <view class="categoryContainer">
   <!-- 左侧边栏 -->
-  <view class="sideNav">
+  <scroll-view class="navScroll" enable-flex>
     <view class="navItem" wx:for="{{type}}" wx:key="index">
-      <view class="navContent {{navId === 11?'active':''}}" bindtap="switchTab" data-id="{{index}}">{{item}}</view>
+      <view class="navContent {{navId === index? 'active':''}}" bindtap="switchTab" data-id="{{index}}">
+        {{item}}
+      </view>
     </view>
-  </view>
+  </scroll-view>
 
   <!-- 右侧分类页面 -->
-  <view class="right">
-    <view class="type">111</view>
+  <view class="goodsContainer">
+    <view class="goods">
+      <view class="goodsImg">
+        <image src="/static/images/test1.jpg"></image>
+      </view>
+      <view class="goodsInfo">
+        <view class="goodsTitle">商品名称</view>
+        <view class="goodsDesc">描述信息</view>
+        <view class="goodsPrice">￥20</view>
+      </view>
+    </view>
+    <view class="goods">
+      <view class="goodsImg">
+        <image src="/static/images/test1.jpg"></image>
+      </view>
+      <view class="goodsInfo">
+        <view class="goodsTitle">商品名称</view>
+        <view class="goodsDesc">描述信息</view>
+        <view class="goodsPrice">￥20</view>
+      </view>
+    </view>
   </view>
 </view>

@@ -5,30 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-    curTab:0,
-    navId:'',
+    navId:0,
     type: ["为您推荐", "清洁", "消毒", "保姆", "为您推荐", "清洁", "消毒", "保姆", "为您推荐", "清洁", "消毒", "保姆"]
   },
   switchTab(event) {
     let navId = event.currentTarget.dataset.id;
-    let curTab = 0;
-    for(let i=0;i<this.data.type.length;i++) {
-      console.log(i)
-      curTab = i
-    }
     this.setData({
-      navId: navId*1,
-      curTab
+      navId: navId,
     })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-    this.setData({
-      curTab:0
-    })
+  onLoad: function () {
+
   },
 
   /**

@@ -6,20 +6,60 @@
 }
 
 /* 左边 */
-.sideNav {
+.navScroll {
+    font-size: 28rpx;
     width: 25%;
     background: #ecf9ff;
 }
-.sideNav .navItem {
+.navScroll .navItem {
     padding: 10rpx;
     text-align: center;
 }
 
+.active {
+    color: red;
+  }
 
-/* 右边 */
-.right {
+/* 商品卡片区域 */
+.goodsContainer {
     width: 75%;
-    padding: 0 10rpx;
-    background: pink;
 }
+.goods {
+    padding: 10rpx;
+    height: 200rpx;
+    display: flex;
+    margin-top: 10rpx;
+}
+
+.goodsImg {
+    width: 40%;
+}
+
+.goodsImg image {
+    width: 100%;
+    height: 100%;
+}
+.goodsInfo {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.goodsTitle {
+    font-size: 32rpx;
+}
+
+.goodsDesc {
+    font-size: 30rpx;
+}
+
+.goodsPrice {
+    font-size: 28rpx;
+    color: red;
+}
+
+
+
+
 
