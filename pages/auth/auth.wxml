@@ -9,6 +9,8 @@
     icon="/static/images/weixin-w.png"
     class="btn-login"
     size="normal"
+    open-type="getUserInfo"
+    bindtap="handleGetUserInfo"
   >微信快捷登陆</van-button>
   <view class="cancel" bindtap="goBack">取消</view>
 </view>
