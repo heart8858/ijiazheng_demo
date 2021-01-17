@@ -17,17 +17,17 @@
       <text>会员卡</text>
       <van-icon name="arrow" class="arrow"/>
     </view>
-    <view class="vipItem">
+    <view class="orderItem" bindtap="toOrder">
       <van-icon name="label" size="45rpx" color="#31933c" class="label"/>
       <text>我的订单</text>
       <van-icon name="arrow" class="arrow"/>
     </view>
-    <view class="vipItem">
+    <view class="addrItem" bindtap="toAddr">
       <van-icon name="location" size="45rpx" color="#56c65e" class="location"/>
       <text>常用地址</text>
       <van-icon name="arrow" class="arrow"/>
     </view>
-    <view class="vipItem">
+    <view class="commentItem" bindtap="toComment">
       <van-icon name="smile" size="45rpx" color="#4fcc4c" class="smile"/>
       <text>我的评价</text>
       <van-icon name="arrow" class="arrow"/>

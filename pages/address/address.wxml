@@ -1,0 +1,6 @@
+<view class="addressContainer">
+  <button class="addBtn"><van-icon name="plus" />添加一个新的地址</button>
+  <view class="addrItem">
+    
+  </view>
+</view>

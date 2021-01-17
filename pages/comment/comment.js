@@ -1,28 +1,20 @@
-// pages/profile/profile.js
+// pages/comment/comment.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    userInfo: {} // 存放用户的基本信息
+
   },
+
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function () {
+  onLoad: function (options) {
 
   },
-  goAuth() {
-    wx.navigateTo({
-      url: '/pages/auth/auth',
-    })
-  },
-  toOrder() {
-    wx.navigateTo({
-      url: '/pages/order/order',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

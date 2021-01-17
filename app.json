@@ -4,12 +4,15 @@
     "van-icon": "@vant/weapp/icon/index"
   },
   "pages": [
+    "pages/address/address",
     "pages/category/category",
     "pages/home/home",
     "pages/auth/auth",
     "pages/profile/profile",
     "pages/detail/detail",
-    "pages/order/order"
+    "pages/order/order",
+    
+    "pages/comment/comment"
   ],
   "window": {
     "backgroundTextStyle": "light",
